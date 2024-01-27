@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+    }
+    .menu-btn {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    main section .bg-block {
+        height: 217px;
+    }
+    .main section .bg-block h1 p {
+        font-size: 22px;
+        max-width: 70%;
+    }
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 50px;
+    }
+    .question-section-link {
+        display: none;
+    }
+    .question-link-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .mySlides  {
+        max-height: unset !important;
+    }
+    .my-slides__inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        min-height: 310px;
+    }
+    .my-slides__inner img {
+       width: 220px;
+       height: auto;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .logo-block img {
+        max-width: 130px;
+    }
+    .section-title {
+        font-size: 18px;
+    }
+    .question-title {
+        font-size: 16px;
+    }
+    .info-section__title, .section-link {
+        font-size: 16px;
+    }
+    .card__footer {
+        padding-top: 10px;
+    }
+    .footer-content__item:nth-child(1) {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        width: 100%;
+    }
+    .footer-content__item:nth-child(2) {
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
+    }
+    .footer-content__item:nth-child(3) {
+        -webkit-box-ordinal-group: 5;
+            -ms-flex-order: 4;
+                order: 4;
+        width: 100%;
+    }
+    .footer-content__item:nth-child(4) {
+        display: block;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+    .footer-content__item>img {
+        width: 105px;
+    }
+    .footer-social img {
+        width: 35px;
+    }
+    .btn-block .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
